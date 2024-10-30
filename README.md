@@ -65,6 +65,4 @@ This project is a simple FAQ (Frequently Asked Questions) application built usin
 **Shivraj Prajapati**
 
 Feel free to contribute to this project or report issues if any.
-```
 
-Is README file mein project ka overview, features, installation instructions, code explanation, aur author information di gayi hai. Aap isse customize karke apne needs ke hisaab se adjust kar sakte hain.
