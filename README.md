@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React FAQ Question Answer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple FAQ (Frequently Asked Questions) application built using React. Users can view a list of questions and click on them to reveal the corresponding answers. This application is designed to practice React concepts, such as component state management and event handling.
 
-## Available Scripts
+## Features
+- Display a list of frequently asked questions.
+- Clickable questions that reveal the corresponding answers.
+- State management using React hooks.
+- Simple and user-friendly interface.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/shivraj-prajapati/react-faq-question-answer.git
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory
+   ```bash
+   cd react-faq-question-answer
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install dependencies
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Start the development server
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Code Explanation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Key Components
+1. **App Component**:
+   - Acts as the main component that houses the FAQ items.
+   - Manages the state for displaying answers based on user interaction.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Faq Component**:
+   - Renders the FAQ items and manages the currently selected question.
+   - Uses state to keep track of which answer to show.
 
-### `npm run eject`
+3. **FaqItem Component**:
+   - Represents a single FAQ item with the question and corresponding answer.
+   - Displays the answer based on the currently selected question.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### State Variables
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `showAnswer`: This state variable keeps track of which answer is currently displayed based on the user's selection.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Functions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **setShowAnswer**: Updates the state to show the answer corresponding to the clicked question.
 
-## Learn More
+## Technologies Used
+- React
+- CSS for styling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
+**Shivraj Prajapati**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to contribute to this project or report issues if any.
+```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Is README file mein project ka overview, features, installation instructions, code explanation, aur author information di gayi hai. Aap isse customize karke apne needs ke hisaab se adjust kar sakte hain.
